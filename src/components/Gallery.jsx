@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Gallery = () => {
     return (
-        <div className='flex flex-col justify-center bg-slate-50 pb-16 pt-10 items-center'>
+        <div className='hidden md:flex flex-col justify-center bg-slate-50 pb-16 pt-10 items-center'>
             <h2 className='text-center text-5xl text-orange-600 font-semibold pb-10'>Gallery</h2>
-            <div className='flex w-full flex-col justify-center items-center gap-4 px-32'>
+            <div className='flex w-full flex-col justify-center items-center gap-4 md:px-32 px-5'>
                 <div className='flex h-[60vh] w-full gap-4 justify-center items-center'>
                     <div className='w-1/2 flex gap-4 h-full'>
                         <div className='w-1/2 h-full rounded-2xl shadow-md bg-white'>

@@ -106,7 +106,7 @@ function EventCard() {
     <div className=' w-auto'>
       <Slider {...settings}>
         {Data.map((d) => (
-          <div key={d.id} className="h-[400px] w-full rounded  flex flex-col lg:px-16 px-14 pt-1 pb-5 items-center justify-center">
+          <div key={d.id} className="h-[400px] w-full rounded  flex flex-col lg:px-16 px-6 pt-1 pb-5 items-center justify-center">
             <div className='h-full bg-white border-2 text-center justify-center p-5 px-8 flex flex-col items-center' style={{boxShadow:'0 0 10px rgb(220, 220, 220)'}}>
                 <h2 className='text-xl font-medium mb-5'>{d.title}</h2>
                 <p className='text-lg'>{d.description}</p>
