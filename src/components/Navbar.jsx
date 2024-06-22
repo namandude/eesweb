@@ -71,7 +71,7 @@ export default function Navbar() {
         {/* destop view */}
         <div className={``}>
           <Link to='/'>
-            <img src={`${subpage === '' && hidden == !true ? '/eeslogo2.png' : '/eeslogo.png'}`} alt="Apple" className={`w-20`} />
+            <img src={`${subpage === '' && hidden == !true ? '/eeslogo2.png' : '/eeslogo.png'}`} alt="Apple" className={`md:w-20 w-16`} />
           </Link>
         </div>
         <div className='md:flex text-lg flex-1 justify-center items-center space-x-8 hidden'>
@@ -99,7 +99,7 @@ export default function Navbar() {
         </div>
 
         {/* mobile view */}
-        <div onClick={toggleCart} className='cursor-pointer md:hidden font-semibold md:absolute md:right-0 md:mx-8 mt-2 md:mt-0'>
+        <div onClick={toggleCart} className='cursor-pointer md:hidden font-semibold md:absolute md:right-0 md:mx-8 md:mt-0'>
           <button className={`${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}><FiMenu size={30} /></button>
         </div>
         <div ref={ref} className="w-full md:hidden h-[100vh] sideCart bg-white absolute top-0 right-0 py-10 transition-transform transform translate-x-full ">
