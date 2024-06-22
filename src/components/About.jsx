@@ -20,7 +20,7 @@ const variants = {
 
 const About = () => {
     return (
-        <motion.div className='py-16 min-h-[80vh] bg-slate-100 flex flex-col justify-center items-center'
+        <motion.div className=' bg-white flex flex-col justify-center items-center py-20'
           variants={variants}
           initial='initial'
           whileInView='animate'

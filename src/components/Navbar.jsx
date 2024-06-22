@@ -89,6 +89,10 @@ export default function Navbar() {
           <Link to={'/gallery'} className={Linkness('gallery')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Gallery </p>
           </Link>
+          
+          <Link to={'/team'} className={Linkness('team')}>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Our Team </p>
+          </Link>
 
           <Link to={'/contact'} className={Linkness('contact')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Contact Us </p>
@@ -119,6 +123,10 @@ export default function Navbar() {
 
               <Link to={'/gallery'} className={Linkness('gallery')}>
                 <p className='lg:text-lg text-base'>Gallery </p>
+              </Link>
+
+              <Link to={'/team'} className={Linkness('team')}>
+                <p className='lg:text-lg text-base'>Our Team </p>
               </Link>
 
               <Link to={'/contact'} className={Linkness('contact')}>
