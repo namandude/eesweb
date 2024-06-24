@@ -19,12 +19,24 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start">
           <p className="text-lg font-semibold my-3">Useful Links</p>
           <ul className="flex flex-wrap md:flex-col gap-2 text-sm justify-center ">
-            <Link to='/about'><li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />About us <span className="md:hidden text-xl" >|</span></li></Link>
-            <Link to='/event'><li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Events <span className="md:hidden text-xl" >|</span></li></Link>
-            <Link to='/sponser'><li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Sponser us <span className="md:hidden text-xl" >|</span></li></Link>
-            <Link to='/gallery'><li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Gallery <span className="md:hidden text-xl" >|</span></li></Link>
-            <Link to='/ourteam'><li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Our Team <span className="md:hidden text-xl" >|</span></li></Link>
-            <Link to='/contact'><li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Contact us <span className="md:hidden text-xl" ></span></li></Link>
+            <Link to='/about'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />About us <span className="md:hidden text-xl" >|</span></li>
+            </Link>
+            <Link to='/event'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Events <span className="md:hidden text-xl" >|</span></li>
+            </Link>
+            <Link to='/sponser'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Sponser us <span className="md:hidden text-xl" >|</span></li>
+            </Link>
+            <Link to='/gallery'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Gallery <span className="md:hidden text-xl" >|</span></li>
+            </Link>
+            <Link to='/ourteam'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Our Team <span className="md:hidden text-xl" >|</span></li>
+            </Link>
+            <Link to='/contact'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Contact us <span className="md:hidden text-xl" ></span></li>
+            </Link>
           </ul>
         </div>
         <div className="flex flex-col items-center md:items-start gap-5">
