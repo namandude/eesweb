@@ -21,7 +21,7 @@ const OurTeam = () => {
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
                         <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <img src="" alt="" className='w-28 h-28 shadow-md rounded-[100%]' />
+                            <img src="" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Arvind Prjapati</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
@@ -38,7 +38,7 @@ const OurTeam = () => {
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
                         <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <img src="" alt="" className='w-28 h-28 shadow-md rounded-[100%]' />
+                            <img src="" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Ravi Bhusan</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
@@ -58,7 +58,7 @@ const OurTeam = () => {
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
                         <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <img src="" alt="" className='w-28 h-28 shadow-md rounded-[100%]' />
+                            <img src="" alt="" className='w-28 h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Indrajeet</h2>
                                 <p>President</p>
@@ -75,7 +75,7 @@ const OurTeam = () => {
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
                         <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <img src="" alt="" className='w-28 h-28 shadow-md rounded-[100%]' />
+                            <img src="" alt="" className='w-28 h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Deepanshu Garg</h2>
                                 <p>Wise President</p>
