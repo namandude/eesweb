@@ -3,7 +3,6 @@ import Layout from '../components/Layout'
 import HeroSection from '../components/HeroSection'
 import About from '../components/About'
 import Event from '../components/Event'
-import Gallery from '../components/Gallery'
 
 const Home = () => {
 
@@ -12,7 +11,6 @@ const Home = () => {
       <HeroSection/>
       <About/>
       <Event/>
-      <Gallery/>
     </Layout>
   )
 }
