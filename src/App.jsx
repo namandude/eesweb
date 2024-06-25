@@ -14,6 +14,7 @@ import SponsorCrausal from './pages/sponser/SponerCrausal';
 import Contact from './pages/Contact/Contact';
 import Gallery from './pages/Gallery/Gallery';
 import Event from './pages/Event/Event';
+import Team from './pages/OurTeam/Team';
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -52,6 +53,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/event" element={<Event />} />
+                <Route path="/team" element={<Team />} />
               </Routes>
               <Toaster/>
             </Router>
