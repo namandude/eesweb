@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const TamCard = ({ item }) => {
     return (
-        <div className="w-full flex flex-col sm:flex-row flex-wrap py-20 justify-center items-center gap-10 md:gap-20 px-5">
+        <div className="w-full flex flex-col sm:flex-row flex-wrap py-20 pt-16 justify-center items-center gap-10 md:gap-10 px-5">
             {
                 item?.map((e, i) => (
                     <motion.div className='lg:w-[30vw] sm:w-[50vw] w-80 md:h-60 h-52 bg-white rounded-2xl shadow-lg'

@@ -1,12 +1,5 @@
 [
     {
-        "id": "1",
-        "name": "Indrajeet Kumar",
-        "designation": "President",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
         "id": "2",
         "name": "Deepanshu Garg",
         "designation": "Vice-President",
@@ -71,14 +64,14 @@
     },
     {
         "id": "11",
-        "name": "Divyanshu",
+        "name": "Divyanshu Kumar",
         "designation": "Corporative Affairs",
         "img": "/2k21/img1.webp",
         "linkedin": "wdkwdkwek"
     },
     {
         "id": "12",
-        "name": "Abhinav",
+        "name": "Abhinav Raj",
         "designation": "Craetive Head",
         "img": "/2k21/img1.webp",
         "linkedin": "wdkwdkwek"
@@ -99,8 +92,92 @@
     },
     {
         "id": "15",
-        "name": "Shruti",
+        "name": "Shruti Priya",
         "designation": "Content Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "16",
+        "name": "Abhay Pratap Singh",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "17",
+        "name": "Naina",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "18",
+        "name": "Badal Kumar",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "19",
+        "name": "Akash Kr Verma",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "20",
+        "name": "Ashu Anand",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "21",
+        "name": "Aditya Sonkar",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "22",
+        "name": "Nikhil Kumar",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "23",
+        "name": "Aditya Pal",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "24",
+        "name": "Surbhi Soumya",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "25",
+        "name": "Akash Ranjan",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "26",
+        "name": "Siddharth Singh",
+        "designation": "Member",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "27",
+        "name": "Priyanshu Raj",
+        "designation": "Member",
         "img": "/2k21/img1.webp",
         "linkedin": "wdkwdkwek"
     }
