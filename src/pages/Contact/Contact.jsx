@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useContext, useRef, useState } from 'react'
 import { BsTelephone } from 'react-icons/bs'
 import { MdLocationPin, MdMail } from "react-icons/md";

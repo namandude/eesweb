@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import Layout from '../../components/Layout'
 import { motion } from 'framer-motion'
@@ -38,16 +39,16 @@ const About = () => {
                         <p className="font-normal md:text-3xl text-xl md:mb-0  mb-3 leading-3 text-black cursor-pointer pb-2">Who we <span className='text-orange-500'>Are</span></p>
                         <div className="flex lg:flex-row flex-col items-center lg:gap-8 sm:gap-10 gap-12">
                             <div className="w-full lg:w-2/5">
-                                <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">We are here to make great design accessible and delightfull for everyone</h2>
+                                <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">We are here to foster growth, innovation, and excellence.
+                                </h2>
                                 <p className="font-normal text-base leading-6 text-gray-600 mt-6">
-                                    Embark on a design journey with Shiddhant decor, where creativity 
-                                    meets craftsmanship. We are not just a team; we are storytellers 
-                                    of spaces, weaving dreams into every corner. Our passion for 
-                                    innovation, coupled with a relentless pursuit of perfection, 
-                                    ensures that your vision becomes a living masterpiece. Join us 
-                                    in redefining the art of living – because at Shiddhant decor, 
-                                    every space tells a captivating tale of style, comfort, and 
-                                    individuality.
+                                    Embark on a journey with the Electrical Engineering Society, where technical 
+                                    expertise meets real-world application. We are not just a society; we are 
+                                    pioneers of progress, dedicated to integrating modern technology into various 
+                                    domains. Our relentless pursuit of innovation and our commitment to academic 
+                                    and professional development ensure that every student’s potential is maximized. 
+                                    Join us in shaping the future – because at EES, every initiative is a step 
+                                    toward creating a more technologically advanced and connected world.
                                 </p>
                             </div>
                             <div className="w-full lg:w-6/12 md:ml-12">
@@ -148,16 +149,15 @@ const About = () => {
                                 <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Mission</h2>
 
                                 <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">
-                                    our mission is to redefine the art of living through inspired design. We are driven by
-                                    a passion for creating spaces that transcend the ordinary, turning every interior into a
-                                    masterpiece that reflects individuality, functionality, and timeless aesthetics.
+                                At the Electrical Engineering Society (EES), our mission is to empower the next generation of engineers with the knowledge, skills, and 
+                                experiences needed to thrive in a rapidly evolving technological landscape. We are dedicated to fostering a culture of innovation 
+                                and excellence, where academic learning is seamlessly integrated with practical, real-world applications.
                                 </p>
 
                                 <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">
-                                    We exist to transform spaces into living works of art that evoke emotion,
-                                    inspire, and stand the test of time. Through our unwavering commitment to
-                                    quality, creativity, and client satisfaction, we aim to leave an indelible
-                                    mark on the world of interior design.
+                                Our goal is to provide our members with the tools and opportunities to excel, not only as students but as future leaders in the field of 
+                                electrical engineering. By promoting collaboration, continuous learning, and the adoption of modern technologies, we strive to 
+                                make a lasting impact on the industry and society.
                                 </p>
                             </div>
                             <div className="w-full lg:w-6/12">
@@ -176,10 +176,9 @@ const About = () => {
                                         <div className="cursor-pointer">
                                             <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Team</p>
                                             <p className="mt-2 font-normal text-base leading-6 text-gray-600">
-                                                Our diverse team of skilled designers, architects,
-                                                and creatives collaborates seamlessly, bringing a wealth
-                                                of expertise to each project and ensuring a harmonious
-                                                blend of innovation and precision.
+                                            Our diverse team of passionate students collaborates seamlessly, bringing a wealth of enthusiasm 
+                                            and fresh perspectives to every initiative. Together, we ensure a harmonious blend of innovation 
+                                            and practicality, driving forward our mission to excel in the field of electrical engineering.
                                             </p>
                                         </div>
                                     </motion.div>
@@ -199,9 +198,10 @@ const About = () => {
                                         <div className="cursor-pointer">
                                             <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Board</p>
                                             <p className="mt-2 font-normal text-base leading-6 text-gray-600">
-                                                Our curated moodboards serve as the visual compass guiding each project,
-                                                capturing inspirations, colors, and textures to set the tone for a
-                                                space that transcends expectations.
+                                                Our dedicated faculty members serve as the guiding force behind each endeavor, 
+                                                providing invaluable expertise and mentorship. Their insights and experience 
+                                                set the foundation for our projects, ensuring that our efforts not only meet 
+                                                but exceed expectations in both academic and practical realms.
                                             </p>
                                         </div>
                                     </motion.div>

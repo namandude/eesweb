@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import Layout from '../../components/Layout'
 import TeamCard from './TamCard'
@@ -21,8 +22,12 @@ const Team = () => {
                     <h2 className='md:text-5xl text-3xl text-black font-semibold'>Team EES</h2>
                 </div>
                 <div className='w-full flex items-center justify-center mt-10 px-5'>
-                    <p className='text-center lg:w-2/3'>We are the team ees Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, doloremque sint assumenda
-                        ipsum cumque iusto? Id soluta laboriosam dolore? Excepturi, modi accusantium? Eaque, recusandae?</p>
+                    <p className='text-center lg:w-2/3'>We are Team EES, a dynamic blend of dedicated faculty and 
+                    passionate students working together to push the boundaries of electrical engineering. Our 
+                    society thrives on the collaborative efforts of experienced mentors and innovative minds, 
+                    ensuring that every initiative we undertake is a perfect harmony of academic excellence and 
+                    practical experience. At EES, we are united in our commitment to fostering growth, embracing 
+                    challenges, and driving progress in both education and industry.</p>
                 </div>
 
                 {/* Buuton */}
