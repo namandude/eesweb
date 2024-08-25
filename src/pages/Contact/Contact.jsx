@@ -41,10 +41,9 @@ const Contact = () => {
             setEmail('');
             setMessage('');
         }
-
     }
 
-    return (
+    return (    
         <Layout>
             <div className='bg-slate-100'>
                 <div className="flex justify-center pb-20">
