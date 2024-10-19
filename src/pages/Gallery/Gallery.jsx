@@ -6,52 +6,52 @@ const GalleryData = [
   {
     id: 1,
     title: "Events",
-    image: "/images/img1.jpg"
+    image: "/images/img1.webp"
   },
   {
     id: 2,
     title: "Events",
-    image: "/images/img2.jpg"
+    image: "/images/img2.webp"
   },
   {
     id: 3,
     title: "Events",
-    image: "/images/img3.jpg"
+    image: "/images/img3.webp"
   },
   {
     id: 4,
     title: "Events",
-    image: "/images/img4.jpg"
+    image: "/images/img4.webp"
   },
   {
     id: 5,
     title: "Pravardhan",
-    image: "/images/img5.jpg"
+    image: "/images/img5.webp"
   },
   {
     id: 6,
     title: "Pravardhan",
-    image: "/images/img6.jpg"
+    image: "/images/img6.webp"
   },
   {
     id: 7,
     title: "Pravardhan",
-    image: "/images/img8.jpg"
+    image: "/images/img8.webp"
   },
   {
     id: 8,
     title: "Pravardhan",
-    image: "/images/img10.jpg"
+    image: "/images/img10.webp"
   },
   {
     id: 9,
     title: "Workshop",
-    image: "/images/img7.jpg"
+    image: "/images/img7.webp"
   },
   {
     id: 10,
     title: "Workshop",
-    image: "/images/img9.jpg"
+    image: "/images/img9.webp"
   },
 ]
 

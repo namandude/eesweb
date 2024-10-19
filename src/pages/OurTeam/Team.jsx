@@ -61,7 +61,7 @@ const Team = () => {
                                 <p>President</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
+                                    <a href="https://www.linkedin.com/in/indrajeet-kumar-919b69255/" target='_blank' rel="noreferrer"><BsLinkedin /></a>
                                     <MdMail />
                                 </div>
                             </div>
