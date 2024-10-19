@@ -3,12 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 const Data = [
   {
     id: "1",
     title: " ELECTRO-SPECTION",
     description: "Electrical circuits form the foundation of power generation, and in this event, participants design and construct electrical and electronic circuits swiftly and efficiently on a breadboard.",
-    imgUrl: "/sponser/skoda.webp"
+    imgUrl: "/Events/electr.jpg"
   },
   {
     id: "2",
@@ -70,10 +71,8 @@ const Data = [
     description: "A brain-teasing challenge, qrious is a quiz based event revolving around the dynamic universe of electrical engineering and related sciences, stimulating intellectual curiosity.",
     imgUrl: "/sponser/img11.webp"
   }
-]
-
+];
 function EventCard() {
-
   const settings = useMemo(() => {
     return {
       autoplay: true,
@@ -86,38 +85,39 @@ function EventCard() {
       slidesToShow: 3,
       slidesToScroll: 1,
       vertical: false,
-      horizontalSwiping: true,
       swipeToSlide: true,
       pauseOnHover: true,
-      variableWidth: false,
-
-      responsive:[{
-        breakpoint:600,
-        settings:{
-            slidesToShow:1,
-            speed: 3500,
-            autoplaySpeed: 2000,
+      responsive: [{
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          speed: 3500,
+          autoplaySpeed: 2000,
         }
-    }]
-      
+      }]
     };
   }, []);
+
   return (
-    <div className=' w-auto'>
+    <div className='w-auto'>
       <Slider {...settings}>
         {Data.map((d) => (
-          <div key={d.id} className="h-[400px] w-full rounded  flex flex-col lg:px-16 px-6 pt-1 pb-5 items-center justify-center">
-            <div className='h-full bg-white border-2 text-center justify-center p-5 px-8 flex flex-col items-center' style={{boxShadow:'0 0 10px rgb(220, 220, 220)'}}>
+          <div key={d.id} className="h-[400px] w-full rounded flex flex-col lg:px-16 px-6 pt-1 pb-5 items-center justify-center">
+            <div
+              className='h-full w-full bg-center bg-cover bg-no-repeat rounded-lg flex flex-col items-center justify-center text-white p-5'
+              style={{ backgroundImage: `url(${d.imgUrl})`, boxShadow: '0 0 10px rgb(220, 220, 220)' }}
+            >
+              <div className='bg-black bg-opacity-50 p-5 rounded'>
                 <h2 className='text-xl font-medium mb-5'>{d.title}</h2>
                 <p className='text-lg'>{d.description}</p>
+              </div>
             </div>
           </div>
         ))}
-
       </Slider>
-
     </div>
   );
 }
-export default EventCard
+
+export default EventCard;
 
