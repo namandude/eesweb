@@ -52,7 +52,7 @@ const About = () => {
                                 </p>
                             </div>
                             <div className="w-full lg:w-6/12 md:ml-12">
-                                <img className="w-full rounded-lg" src="/about.png" alt="people discussing on board" />
+                                <img className="w-full rounded-lg" src="/about.webp" alt="people discussing on board" />
                                 {/* <img className="lg:hidden sm:block hidden w-full" src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png" alt="people discussing on board" />
                                 <img className="sm:hidden block w-full" src="/" alt="people discussing on board" /> */}
                             </div>
@@ -89,21 +89,23 @@ const About = () => {
                         </div>
                         <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                             <div className='sm:block hidden'>
-                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded</p>
-                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded 19th January 2019</p>
+                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">The Electrical Engineering Society (EES) was established with the mission to create a platform for innovation, learning, and collaboration within the electrical engineering domain at NIT Jamshedpur.                                </p>
                             </div>
                             <div className='sm:block hidden'>
-                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">50M montly enrichments</p>
-                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">EE Family</p>
+                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">EES is proud to be a part of a vibrant and diverse community of over 600 individuals, including B.Tech and M.Tech students, professors, and PhD scholars. Together, we are driven by a shared passion for advancing electrical engineering and its applications.
+</p>
                             </div>
                             <div className="sm:block hidden">
-                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">400k User</p>
-                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Members</p>
+                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">
+                                With a dedicated team of 50+ present active members, EES continuously strives to nurture talent, promote leadership, and foster a collaborative atmosphere where innovation and technical growth thrive.</p>
                             </div>
                         </div>
                         <div className='sm:hidden block'>
-                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded</p>
-                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold text-center md:text-left  lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded 19th January 2019</p>
+                                <p className="font-normal text-center md:text-left  text-base leading-6 text-gray-600 mt-6">The Electrical Engineering Society (EES) was established with the mission to create a platform for innovation, learning, and collaboration within the electrical engineering domain at NIT Jamshedpur.                                </p>
                         </div>
                         <div className="sm:hidden block relative mt-8">
                             <div className="md:grid flex sm:grid-cols-3 grid-cols-2 justify-center items-center sm:gap-8 gap-4">
@@ -119,8 +121,9 @@ const About = () => {
                         </div>
                         <div className="sm:hidden grid sm:grid-cols-3 grid-cols-1 sm:gap-8 gap-4">
                             <div className=''>
-                                <p className="font-semibold text-center md:text-left lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">50M monthly enrichments</p>
-                                <p className="font-normal text-center md:text-left text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold text-center md:text-left lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">EE Family</p>
+                                <p className="font-normal text-center md:text-left text-base leading-6 text-gray-600 mt-6">EES is proud to be a part of a vibrant and diverse community of over 600 individuals, including B.Tech and M.Tech students, professors, and PhD scholars. Together, we are driven by a shared passion for advancing electrical engineering and its applications.
+</p>
                             </div>
                         </div>
 
@@ -138,8 +141,9 @@ const About = () => {
                         </div>
                         <div className="sm:hidden grid sm:grid-cols-3 grid-cols-1 sm:gap-8 gap-4">
                             <div className=''>
-                                <p className="font-semibold text-center md:text-left lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">400k User</p>
-                                <p className="font-normal text-center md:text-left text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold text-center md:text-left lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Members</p>
+                                <p className="font-normal text-center md:text-left text-base leading-6 text-gray-600 mt-6">
+                                With a dedicated team of 50+ present active members, EES continuously strives to nurture talent, promote leadership, and foster a collaborative atmosphere where innovation and technical growth thrive.</p>
                             </div>
                         </div>
 
@@ -218,8 +222,11 @@ const About = () => {
                                         </div>
                                         <div className="cursor-pointer">
                                             <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Press</p>
-                                            <p className="mt-2 font-normal text-base leading-6 text-gray-600">
-                                                Siddhant decor has been featured in prestigious design publications, garnering attention for our innovative approach and commitment to crafting spaces that captivate and inspire.
+                                            <p className="mt-2 font-normal text-base leading-6 text-gray-600">    
+                                                Vidyurang, the annual magazine of the Electrical Engineering Society (EES), has been 
+                                                a cornerstone of our community, showcasing the dynamic spirit of our members, 
+                                                groundbreaking events, technical workshops, and our much-anticipated annual 
+                                                fest "Pravardhan".
                                             </p>
                                         </div>
                                     </motion.div>

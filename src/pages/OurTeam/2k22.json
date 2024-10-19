@@ -14,6 +14,20 @@
         "linkedin": "wdkwdkwek"
     },
     {
+        "id": "6",
+        "name": "Premraj",
+        "designation": "Member",
+        "img": "/2k22/prem.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "7",
+        "name": "Naman",
+        "designation": "Member",
+        "img": "/2k22/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
         "id": "3",
         "name": "Ayush",
         "designation": "Member",
@@ -34,20 +48,7 @@
         "img": "/2k22/img1.webp",
         "linkedin": "wdkwdkwek"
     },
-    {
-        "id": "6",
-        "name": "Premraj",
-        "designation": "Member",
-        "img": "/2k22/img6.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "7",
-        "name": "Naman",
-        "designation": "Member",
-        "img": "/2k22/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
+    
     {
         "id": "8",
         "name": "Nikita",

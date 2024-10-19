@@ -15,21 +15,22 @@ const OurTeam = () => {
                 <div className="w-full flex flex-col md:flex-row justify-center items-center lg:gap-20 gap-10 px-5"
 
                 >
+                    
                     <motion.div className='lg:w-[30vw] sm:w-[50vw] w-80 md:h-60 h-52 bg-white rounded-2xl shadow-lg'
                         initial={{ opacity: 0, y: 20, scale: 0.6 }}
                         whileInView={{ opacity: 1, y: 0, scale: 1, transition: { duration: 0.8 } }}
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
-                        <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <div className='w-2/5'>
-                                <img src="" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
+                        <div className='w-full h-full flex items-center px-3 lg:px-10 gap-5 lg:gap-16'>
+                            <div className='w-[70%] lg:w-[60%]'>
+                                <img src="/ravi.webp" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%] object-cover' />
                             </div>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='text-lg font-semibold'>Arvind Prjapati</h2>
+                                <h2 className='text-lg font-semibold'>Ravi Bhusan</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
-                                    <MdMail />
+                                    <BsLinkedin className='cursor-pointer' />
+                                    <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
                         </div>
@@ -39,16 +40,16 @@ const OurTeam = () => {
                         whileInView={{ opacity: 1, y: 0, scale: 1, transition: { duration: 0.8 } }}
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
-                        <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <div className='w-2/5'>
-                                <img src="" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
+                        <div className='w-full h-full flex items-center px-3 lg:px-10 gap-5 lg:gap-16'>
+                            <div className='w-[70%] lg:w-[60%]'>
+                                <img src="/arvind.webp" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%] object-cover' />
                             </div>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='text-lg font-semibold'>Ravi Bhusan</h2>
+                                <h2 className='text-lg font-semibold'>Arvind Prjapati</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
-                                    <MdMail />
+                                    <BsLinkedin className='cursor-pointer' />
+                                    <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
                         </div>
@@ -61,14 +62,14 @@ const OurTeam = () => {
                         whileInView={{ opacity: 1, y: 0, scale: 1, transition: { duration: 0.8 } }}
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
-                        <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <img src="" alt="" className='w-28 h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
+                        <div className='w-full h-full flex items-center px-3 lg:px-10 gap-5 lg:gap-16'>
+                            <img src="/2k21/inderjeet.webp" alt="" className='w-28 h-28 md:w-32 md:h-32 object-cover shadow-md rounded-[100%]' />
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Indrajeet</h2>
                                 <p>President</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
-                                    <MdMail />
+                                    <BsLinkedin className='cursor-pointer' />
+                                    <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
                         </div>
@@ -78,14 +79,14 @@ const OurTeam = () => {
                         whileInView={{ opacity: 1, y: 0, scale: 1, transition: { duration: 0.8 } }}
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
-                        <div className='w-full h-full flex items-center px-3 gap-5 lg:gap-16'>
-                            <img src="" alt="" className='w-28 h-28 md:w-32 md:h-32 shadow-md rounded-[100%]' />
+                        <div className='w-full h-full flex items-center px-3 lg:px-10 gap-5 lg:gap-16'>
+                            <img src="/2k21/deepanshu.webp" alt="" className='w-28 h-28 md:w-32 md:h-32 shadow-md object-cover rounded-[100%]' />
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Deepanshu Garg</h2>
                                 <p>Wise President</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
-                                    <MdMail />
+                                    <BsLinkedin className='cursor-pointer' />
+                                    <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
                         </div>

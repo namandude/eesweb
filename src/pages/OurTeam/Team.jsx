@@ -54,7 +54,7 @@ const Team = () => {
                     >
                         <div className='w-full h-auto flex flex-col md:flex-row items-center lg:justify-between px-5 lg:px-10 gap-5 lg:gap-10'>
                             <div className=''>
-                                <img src='' alt="" className='w-[145px] h-36 md:w-32 md:h-32 shadow-md rounded-[100%] border-2 object-cover' />
+                                <img src='/2k21/inderjeet.webp' alt="" className='w-[145px] h-36 md:w-80 md:h-32 shadow-md rounded-[100%] border-2 object-cover' />
                             </div>
                             <div className='flex flex-col gap-3'>
                                 <h2 className='text-lg font-semibold'>Indrajeet Kumar</h2>
@@ -77,15 +77,15 @@ const Team = () => {
                     >
                         <div className='w-full h-auto flex flex-col md:flex-row items-center lg:justify-between px-5 lg:px-10 gap-5 lg:gap-10'>
                             <div className=''>
-                                <img src='' alt="" className='w-[145px] h-36 md:w-32 md:h-32 shadow-md rounded-[100%] border-2 object-cover' />
+                                <img src='/ravi.webp' alt="" className='w-[145px] h-36 md:w-80 md:h-32 shadow-md rounded-[100%] border-2 object-cover' />
                             </div>
                             <div className='flex flex-col gap-3'>
                                 <h2 className='text-lg font-semibold'>Ravi Bhusan</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
-                                    <MdMail />
+                                    <BsLinkedin className='cursor-pointer'/>
+                                    <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
                         </div>
@@ -96,15 +96,15 @@ const Team = () => {
                     >
                         <div className='w-full h-auto flex flex-col md:flex-row items-center lg:justify-between px-5 lg:px-10 gap-5 lg:gap-10'>
                             <div className=''>
-                                <img src='' alt="" className='w-[145px] h-36 md:w-32 md:h-32 shadow-md rounded-[100%] border-2 object-cover' />
+                                <img src='/arvind.webp' alt="" className='w-[145px] h-36 md:w-80 md:h-32 shadow-md rounded-[100%] border-2 object-cover' />
                             </div>
                             <div className='flex flex-col gap-3'>
                                 <h2 className='text-lg font-semibold'>Arvind Prajapati</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
-                                    <MdMail />
+                                    <BsLinkedin className='cursor-pointer'/>
+                                    <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
                         </div>

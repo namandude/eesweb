@@ -3,98 +3,113 @@
         "id": "2",
         "name": "Deepanshu Garg",
         "designation": "Vice-President",
-        "img": "/2k21/img1.webp",
+        "img": "/2k21/deepanshu.webp",
         "linkedin": "wdkwdkwek"
     },
     {
         "id": "3",
         "name": "Harsh Tiwary",
         "designation": "General Secreatary",
-        "img": "/2k21/img1.webp",
+        "img": "/2k21/harsh.webp",
         "linkedin": "wdkwdkwek"
     },
     {
         "id": "4",
         "name": "Riya Shery",
         "designation": "Manager",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "5",
-        "name": "Aditya Agarwal",
-        "designation": "Treasurer",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "6",
-        "name": "Sandeep Kumar",
-        "designation": "Event Head",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "7",
-        "name": "Ritik Kumar",
-        "designation": "Event Head",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "8",
-        "name": "Gaurav Kumar",
-        "designation": "Event Head",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "9",
-        "name": "Samar Raghuvanshi",
-        "designation": "Corporative Affairs",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "10",
-        "name": "Tarun Anand",
-        "designation": "Corporative Affairs",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "11",
-        "name": "Divyanshu Kumar",
-        "designation": "Corporative Affairs",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "12",
-        "name": "Abhinav Raj",
-        "designation": "Craetive Head",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "13",
-        "name": "Shubham",
-        "designation": "Craetive Head",
-        "img": "/2k21/img1.webp",
+        "img": "/2k21/riya.webp",
         "linkedin": "wdkwdkwek"
     },
     {
         "id": "14",
         "name": "Shwet Sagar",
         "designation": "Web Head",
-        "img": "/2k21/img1.webp",
+        "img": "/2k21/sagar.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "5",
+        "name": "Aditya Agarwal",
+        "designation": "Treasurer",
+        "img": "/2k21/aditya2.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    
+    {
+        "id": "9",
+        "name": "Samar Raghuvanshi",
+        "designation": "Corporative Affairs",
+        "img": "/2k21/samar.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "10",
+        "name": "Tarun Anand",
+        "designation": "Corporative Affairs",
+        "img": "/2k21/tarun.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "11",
+        "name": "Divyanshu Kumar",
+        "designation": "Corporative Affairs",
+        "img": "/2k21/divyanshu.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "21",
+        "name": "Aditya Sonkar",
+        "designation": "PR Head",
+        "img": "/2k21/aditya.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "12",
+        "name": "Abhinav Raj",
+        "designation": "Craetive Head",
+        "img": "/2k21/abhinav.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "13",
+        "name": "Shubham",
+        "designation": "Craetive Head",
+        "img": "/2k21/shubham.webp",
         "linkedin": "wdkwdkwek"
     },
     {
         "id": "15",
         "name": "Shruti Priya",
         "designation": "Content Head",
-        "img": "/2k21/img1.webp",
+        "img": "/2k21/shruti.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "6",
+        "name": "Sandeep Kumar",
+        "designation": "Event Head",
+        "img": "/2k21/sandeep.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "7",
+        "name": "Ritik Kumar",
+        "designation": "Event Head",
+        "img": "/2k21/ritik.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "8",
+        "name": "Gaurav Kumar",
+        "designation": "Event Head",
+        "img": "/2k21/gaurav.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "27",
+        "name": "Priyanshu Raj",
+        "designation": "Event Head",
+        "img": "/2k21/priyanshu.webp",
         "linkedin": "wdkwdkwek"
     },
     {
@@ -132,13 +147,7 @@
         "img": "/2k21/img1.webp",
         "linkedin": "wdkwdkwek"
     },
-    {
-        "id": "21",
-        "name": "Aditya Sonkar",
-        "designation": "Member",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
+
     {
         "id": "22",
         "name": "Nikhil Kumar",
@@ -171,14 +180,8 @@
         "id": "26",
         "name": "Siddharth Singh",
         "designation": "Member",
-        "img": "/2k21/img1.webp",
-        "linkedin": "wdkwdkwek"
-    },
-    {
-        "id": "27",
-        "name": "Priyanshu Raj",
-        "designation": "Member",
-        "img": "/2k21/img1.webp",
+        "img": "/2k21/siddarth.webp",
         "linkedin": "wdkwdkwek"
     }
+    
 ]

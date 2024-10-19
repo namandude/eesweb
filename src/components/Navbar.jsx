@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import { Fragment, useContext, useRef, useState } from 'react'
+// eslint-disable-next-line no-unused-vars
 import { Dialog, Transition } from '@headlessui/react'
 import { Link, useLocation } from 'react-router-dom'
 import { BsFacebook, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
@@ -71,21 +73,19 @@ export default function Navbar() {
         {/* destop view */}
         <div className={``}>
           <Link to='/'>
-            <img src={`${subpage === '' && hidden == !true ? '/eeslogo2.png' : '/eeslogo.png'}`} alt="Apple" className={`md:w-20 w-16`} />
+            <img src={`${subpage === '' && hidden == !true ? '/eeslogo2.webp' : '/eeslogo.webp'}`} alt="img" className={`md:w-20 w-16`} />
           </Link>
         </div>
         <div className='md:flex text-lg flex-1 justify-center items-center space-x-8 hidden'>
+          <Link to={'/'} className={Linkness('home')}>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Home</p>
+          </Link>
           <Link to={'/about'} className={Linkness('about')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>About Us </p>
           </Link>
           <Link to={'/event'} className={Linkness('event')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Events </p>
           </Link>
-
-          <Link to={'/sponser'} className={Linkness('sponser')}>
-            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Sponser US </p>
-          </Link>
-
           <Link to={'/gallery'} className={Linkness('gallery')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Gallery </p>
           </Link>

@@ -1,3 +1,6 @@
+/* eslint-disable no-irregular-whitespace */
+/* eslint-disable react/no-unescaped-entities */
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom';
@@ -22,7 +25,7 @@ const HeroSection = () => {
   return (
     <div className="slide-container">
       <div className='h-[80vh] sm:h-[110vh] -mt-16' style={{
-        backgroundImage: "url(" + "/nitjsr.png" + ")",
+        backgroundImage: "url(" + "/nitjsr.webp" + ")",
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -44,7 +47,7 @@ const HeroSection = () => {
                 We Ensure a better education for a better world
               </motion.h2>
               <motion.p className='px-5 md:px-0 md:w-3/5 text-center sm:mb-10 mb-1 sm:text-lg' variants={variants}>
-                Your home should tell the story of who you are, and be a collection of what you love.
+              "Empowering Innovation in Electrical Engineering Together through learning and passion”
               </motion.p>
               {/* <motion.p className='px-5 md:px-0 md:w-1/2 text-center mb-2 sm:mb-8 sm:text-lg' variants={variants}>
                 Our architectural design guidelines help you to create outstanding interior experiences to your home within your budget and the committed timeliness.
