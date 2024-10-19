@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
-import { BallTriangle } from 'react-loader-spinner';
+import { BallTriangle,Bars } from 'react-loader-spinner';
 import {
   HashRouter as Router,
   Route,
@@ -29,7 +29,7 @@ function App() {
         {
           loading && (
             <div className='h-screen w-full bg-stone-200 flex justify-center items-center'>
-              <BallTriangle
+              <Bars
                 height={100}
                 width={100}
                 radius={5}
