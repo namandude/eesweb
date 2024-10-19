@@ -21,7 +21,7 @@ const TamCard = ({ item }) => {
                                 <h2 className='text-lg font-semibold'>{e.name}</h2>
                                 <p>{e.designation}</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin />
+                                    <a href={e.linkedin} target='_blank' rel="noreferrer"><BsLinkedin /></a>
                                     <MdMail />
                                 </div>
                             </div>
